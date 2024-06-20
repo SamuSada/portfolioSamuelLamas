@@ -21,7 +21,7 @@ const SectionCard = () => {
               y contribuyendo de manera significativa a proyectos innovadores.
               Busco un entorno dinámico donde pueda aprender de un equipo
               experimentado, afrontar nuevos desafíos y crecer profesionalmente
-              en el ámbito del desarrollo web
+              en el ámbito del desarrollo web.
             </p>
             {/*<button className="btn btn-primary">Cv Vitae</button>*/}
           </div>
