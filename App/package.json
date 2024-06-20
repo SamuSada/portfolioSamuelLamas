@@ -4,14 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build:css": "postcss src/index.css -o src/output.css",
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build && npm run build:css",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
     "@headlessui/react": "^2.0.4",
     "@heroicons/react": "^2.1.4",
+    "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
