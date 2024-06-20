@@ -2,8 +2,8 @@ import React from "react";
 
 const SectionProjects = () => {
   return (
-    <div className="p-4">
-      <div className="overflow-x-auto rounded-lg bg-zinc-800 bg-opacity-70 border-2 border-zinc-800 m-4 md:m-10">
+    <div className="p-4 m-10 w-auto">
+      <div className="overflow-x-auto rounded-lg bg-zinc-800 bg-opacity-70 border-2 border-zinc-800">
         <table className="min-w-full divide-y divide-zinc-800">
           {/* head */}
           <thead className="bg-zinc-800 text-zinc-400">

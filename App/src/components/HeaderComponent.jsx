@@ -33,8 +33,8 @@ const HeaderComponent = () => {
             <li className="relative">
               <details>
                 <summary className="cursor-pointer text-zinc-100">Project Deploys</summary>
-                <ul className="absolute left-1/2 transform -translate-x-1/2 mt-1 p-2 bg-base-300 rounded-t-none z-50 w-40">
-                  <li className="border-b-2 border-base-100">
+                <ul className="absolute left-1/2 transform -translate-x-1/2 mt-1 p-2 bg-zinc-800 text-zinc-100 rounded-t-none z-50 w-40">
+                  <li className="border-b-2 border-zinc-600">
                     <a
                       className="block p-2"
                       href="https://samusada-simplecoffeelisting.netlify.app/"
