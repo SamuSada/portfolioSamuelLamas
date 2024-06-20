@@ -3,7 +3,7 @@ import cvPdfFile from "../assets/cv_samuellamasmonje.pdf";
 
 const HeaderComponent = () => {
   return (
-    <header className="bg-base-300 p-4">
+    <header className="bg-zinc-800 p-4">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="flex-1 text-xl text-zinc-100">Portfolio made in Tailwind</div>
         <div className="flex-none">

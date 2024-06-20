@@ -3,7 +3,7 @@ import React from "react";
 const SectionProjects = () => {
   return (
     <div>
-      <div className="overflow-x-auto rounded-lg bg-base-100 bg-opacity-70 border-2 border-base-100 m-10">
+      <div className="overflow-x-auto rounded-lg bg-zinc-800 bg-opacity-70 border-2 border-zinc-800 m-10">
         <table className="table">
           {/* head */}
           <thead>
