@@ -4,12 +4,13 @@ const SectionCard = () => {
   return (
     <>
       <div className="hero w-4/5">
-        <div className="hero-content flex-col lg:flex-row">
+        <div className="hero-content flex-col lg:flex-row items-center">
           <img
             src="https://i.imgur.com/L7NUNcj.jpg"
-            className="rounded-lg max-w-xs border-4 border-base-300 drop-shadow-lg"
+            className="rounded-lg w-full lg:w-auto max-w-xs border-4 border-base-300 drop-shadow-lg"
+            alt="Samuel Lamas Monje"
           />
-          <div className="ml-10">
+          <div className="ml-10 mr-10 mt-6 lg:mt-0">
             <h1 className="text-5xl font-bold text-zinc-100 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
               Samuel Lamas Monje
             </h1>
