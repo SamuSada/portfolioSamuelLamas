@@ -5,7 +5,7 @@ const HeaderComponent = () => {
   return (
     <header className="bg-zinc-800 p-4">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <div className="flex-1 text-xl text-zinc-100">Portfolio made in Tailwind</div>
+        <div className="flex-1 text-xl text-zinc-100">PORTFOLIO</div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>

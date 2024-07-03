@@ -1,4 +1,5 @@
 import React from "react";
+import perfilImg from "../assets/perfil.jpg";
 
 const SectionCard = () => {
   return (
@@ -6,7 +7,7 @@ const SectionCard = () => {
       <div className="hero w-4/5">
         <div className="hero-content flex-col lg:flex-row items-center">
           <img
-            src="https://i.imgur.com/L7NUNcj.jpg"
+            src={perfilImg}
             className="rounded-lg w-full lg:w-auto max-w-xs border-4 border-zinc-800 drop-shadow-lg"
             alt="Samuel Lamas Monje"
           />
